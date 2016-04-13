@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html>
+<head>
+<script src="https://rawgit.com/lobanv/root/master/data.js" type="text/javascript">
+</script>
+</head>
 <body>
-<h1>Hello World</h1>
+<h1>IFrame page</h1>
 <p>I'm hosted with GitHub Pages.</p>
+<p>I have to load images from another domains</p>
+<div id="container">
+<img id="img1" alt="pretty sky" src="" />
+</div>
+<script type="text/javascript">
+document.getElementById("img1").src = imgUrl4;
+</script>
 </body>
 </html>
